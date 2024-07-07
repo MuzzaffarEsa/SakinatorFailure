@@ -1,0 +1,78 @@
+.main {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #2c3e50;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  max-height: 450px;
+  margin: auto;
+}
+.title {
+  font-size: 2.5em;
+  color: #2c3e50;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.subtitle {
+  font-size: 1.5em;
+  color: #2980b9;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.question {
+  font-size: 1.2em;
+  color: #8e44ad;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.answer {
+  font-size: 1.1em;
+  color: #27ae60;
+  font-weight: bold;
+}
+.guessed-object {
+  font-size: 1.3em;
+  color: #e74c3c;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+.btn:hover {
+  background-color: #2980b9;
+}
+.radio-label {
+  font-size: 1em;
+  color: #34495e;
+}
+.reset-btn {
+  background-color: #e74c3c;
+}
+.reset-btn:hover {
+  background-color: #c0392b;
+}
+.stRadio > div {
+  display: flex;
+  justify-content: center;
+}
+.stTextInput > div {
+  display: flex;
+  justify-content: center;
+}
+.stButton > div {
+  display: flex;
+  justify-content: center;
+}
