@@ -37,7 +37,7 @@ Insert gif or link to demo
 #### Get all items
 
 ```http
-  GET /api/items
+  GET OPENAI_API_KEY
 ```
 
 | Parameter | Type     | Description                |
@@ -47,16 +47,12 @@ Insert gif or link to demo
 #### Get item
 
 ```http
-  GET /api/items/${id}
+  GET GOOGLE_API_KEY
 ```
 
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
-
-#### add(num1, num2)
-
-Takes two numbers and returns the sum.
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
 
 
 ## Acknowledgements
