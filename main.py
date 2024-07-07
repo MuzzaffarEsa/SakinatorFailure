@@ -131,7 +131,8 @@ def main():
         if st.session_state.correct_guess:  # Check if Sakinator guessed correctly
             st.markdown(f'<div class="guessed-object">My guess is, the {st.session_state.category.lower()} you are thinking is {st.session_state.guessed_object}.</div>', unsafe_allow_html=True)
             st.session_state.correct_guess = False  # Reset to handle the correct flow for user confirmation
-
+            
+        # Set to only 10 guesses for presentation purpose
         if st.session_state.guesses < 10 and not st.session_state.final_guess:
             if not st.session_state.current_question:
                 st.session_state.current_question = ask_question()
